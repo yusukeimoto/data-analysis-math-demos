@@ -1,0 +1,18 @@
+文章・図・講義ノート PDF のライセンス
+=====================================
+
+このリポジトリのうち、文章・図・講義ノート PDF（`docs/` 以下、および
+ノートブック内の Markdown セルの解説文）は
+
+    Creative Commons Attribution 4.0 International (CC BY 4.0)
+    https://creativecommons.org/licenses/by/4.0/
+
+で提供される。
+
+Copyright (c) 2026 Yusuke Imoto
+
+著作者表示（例：「井元佑介『データ解析の数学』CC BY 4.0」）を行えば、
+複製・配布・改変・営利利用のいずれも自由である。
+
+コード（`notebooks/` のコードセル、`tools/`、`check_environment.py`）は
+MIT License（同梱の LICENSE を参照）で提供される。

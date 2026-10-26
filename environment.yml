@@ -1,0 +1,19 @@
+# conda での作り方:
+#   conda env create -f environment.yml
+#   conda activate dam-demos
+name: dam-demos
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - numpy>=1.24
+  - scipy>=1.10
+  - matplotlib>=3.6
+  - pandas>=1.5
+  - scikit-learn>=1.2
+  - jupyterlab>=4.0
+  - pot>=0.9
+  - pip
+  - pip:
+      # 日本語フォント（conda-forge に無いので pip で入れる）
+      - japanize-matplotlib>=1.1
